@@ -9,6 +9,7 @@ export interface AppShellProps {
 
 export default function AppShell({ children }: AppShellProps) {
   return (
+
     <div className="flex h-screen bg-slate-50">
       {/* Sidebar */}
       <Sidebar />
@@ -18,5 +19,6 @@ export default function AppShell({ children }: AppShellProps) {
         {children}
       </div>
     </div>
+    
   );
 }
